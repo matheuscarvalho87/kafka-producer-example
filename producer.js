@@ -8,7 +8,8 @@ async function bootstrap(){
     sasl: {
       mechanism: 'scram-sha-256',
       username: 'Ym9sZC1zdW5maXNoLTEwNjI3JMgJBaFOr4xAq1lX9MmJGoBLcyU6kJ56rkWFKQY',
-      password: 'a2011aa8e4644d559f5677c0e2ec7be8'
+      //password resetado lembrar de trocar
+      password: '4cbaf8c6fb764232abc6b2146850bbe9'
     },
     ssl: true,
   })
@@ -24,7 +25,7 @@ async function bootstrap(){
         value: JSON.stringify({
           content: 'Adquira esse novo produto!!!',
           category: 'marketing',
-          recipientId: 'usuarioTeste'
+          recipientId: 'guilherme'
           // recipientId: randomUUID()
         })
       }
